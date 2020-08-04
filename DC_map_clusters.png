@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5a3739546d074c2dac0faab777d88266 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5a3739546d074c2dac0faab777d88266" ></div>
+        
+</body>
+<script>    
+    
+            var map_5a3739546d074c2dac0faab777d88266 = L.map(
+                "map_5a3739546d074c2dac0faab777d88266",
+                {
+                    center: [38.9057, -77.0171],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0632faf1b474464a9a18df65d2ad32ce = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+            var circle_marker_2ede74edc47342588c95cca5869b3c61 = L.circleMarker(
+                [38.91084, -77.0178],
+                {"bubblingMouseEvents": true, "color": "Blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_5a838a55427943a7a039bc90e0f1a829 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_512426c347bd479b9b590cbe492fd2ca = $(`<div id="html_512426c347bd479b9b590cbe492fd2ca" style="width: 100.0%; height: 100.0%;">City: Washington  20001 County: WashingtonCluster 3 Blue</div>`)[0];
+            popup_5a838a55427943a7a039bc90e0f1a829.setContent(html_512426c347bd479b9b590cbe492fd2ca);
+        
+
+        circle_marker_2ede74edc47342588c95cca5869b3c61.bindPopup(popup_5a838a55427943a7a039bc90e0f1a829)
+        ;
+
+        
+    
+    
+            var circle_marker_046c2dd7183b422ebeba354d0d95af1f = L.circleMarker(
+                [38.90511, -76.98437],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_cf86de56f6c046ac99e7d98836001dac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2730621be6f450385bc2df8577c2b28 = $(`<div id="html_b2730621be6f450385bc2df8577c2b28" style="width: 100.0%; height: 100.0%;">City: Washington  20002 County: WashingtonCluster 2 Orange</div>`)[0];
+            popup_cf86de56f6c046ac99e7d98836001dac.setContent(html_b2730621be6f450385bc2df8577c2b28);
+        
+
+        circle_marker_046c2dd7183b422ebeba354d0d95af1f.bindPopup(popup_cf86de56f6c046ac99e7d98836001dac)
+        ;
+
+        
+    
+    
+            var circle_marker_5d4fd342e40745e1a9464427a1ee031d = L.circleMarker(
+                [38.88125, -76.99056],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_2c39572b0f4a4b1aae9a7571a1e287b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9259253d11894c4a8ec47a4c6fa9fd3b = $(`<div id="html_9259253d11894c4a8ec47a4c6fa9fd3b" style="width: 100.0%; height: 100.0%;">City: Washington  20003 County: WashingtonCluster 2 Orange</div>`)[0];
+            popup_2c39572b0f4a4b1aae9a7571a1e287b1.setContent(html_9259253d11894c4a8ec47a4c6fa9fd3b);
+        
+
+        circle_marker_5d4fd342e40745e1a9464427a1ee031d.bindPopup(popup_2c39572b0f4a4b1aae9a7571a1e287b1)
+        ;
+
+        
+    
+    
+            var circle_marker_6ecbfb751ac848ed8cf8a02abda02ae1 = L.circleMarker(
+                [38.89485, -77.02868000000001],
+                {"bubblingMouseEvents": true, "color": "Green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_b249e48710c1469d8a4a0068c6cd697f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_994a9fa9328b41bf9d928924fef93c1e = $(`<div id="html_994a9fa9328b41bf9d928924fef93c1e" style="width: 100.0%; height: 100.0%;">City: Washington  20004 County: WashingtonCluster 1 Green</div>`)[0];
+            popup_b249e48710c1469d8a4a0068c6cd697f.setContent(html_994a9fa9328b41bf9d928924fef93c1e);
+        
+
+        circle_marker_6ecbfb751ac848ed8cf8a02abda02ae1.bindPopup(popup_b249e48710c1469d8a4a0068c6cd697f)
+        ;
+
+        
+    
+    
+            var circle_marker_c662b44cb0754ca488ce64c8d4e7703d = L.circleMarker(
+                [38.90468, -77.0315],
+                {"bubblingMouseEvents": true, "color": "Green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_355096ab81de417b9c6f753c2d3b2112 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bf7fc825c85465398d6920759b7c469 = $(`<div id="html_4bf7fc825c85465398d6920759b7c469" style="width: 100.0%; height: 100.0%;">City: Washington  20005 County: WashingtonCluster 1 Green</div>`)[0];
+            popup_355096ab81de417b9c6f753c2d3b2112.setContent(html_4bf7fc825c85465398d6920759b7c469);
+        
+
+        circle_marker_c662b44cb0754ca488ce64c8d4e7703d.bindPopup(popup_355096ab81de417b9c6f753c2d3b2112)
+        ;
+
+        
+    
+    
+            var circle_marker_4e72b7d600544d91bd7d51ec3432358c = L.circleMarker(
+                [38.898590000000006, -77.04134],
+                {"bubblingMouseEvents": true, "color": "Green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_170a06dcb9534537899f87de9351a296 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80a51e7d3f85493cb11be69aea07151d = $(`<div id="html_80a51e7d3f85493cb11be69aea07151d" style="width: 100.0%; height: 100.0%;">City: Washington  20006 County: WashingtonCluster 1 Green</div>`)[0];
+            popup_170a06dcb9534537899f87de9351a296.setContent(html_80a51e7d3f85493cb11be69aea07151d);
+        
+
+        circle_marker_4e72b7d600544d91bd7d51ec3432358c.bindPopup(popup_170a06dcb9534537899f87de9351a296)
+        ;
+
+        
+    
+    
+            var circle_marker_b6541978f9164bf28a218879945f0c85 = L.circleMarker(
+                [38.91418, -77.07866],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_803460ec0e7447fab4f5a019d890ca9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17e97b9f7eca4b6fa3bbe5f04c056eb9 = $(`<div id="html_17e97b9f7eca4b6fa3bbe5f04c056eb9" style="width: 100.0%; height: 100.0%;">City: Washington  20007 County: WashingtonCluster 2 Orange</div>`)[0];
+            popup_803460ec0e7447fab4f5a019d890ca9c.setContent(html_17e97b9f7eca4b6fa3bbe5f04c056eb9);
+        
+
+        circle_marker_b6541978f9164bf28a218879945f0c85.bindPopup(popup_803460ec0e7447fab4f5a019d890ca9c)
+        ;
+
+        
+    
+    
+            var circle_marker_20a9af6d64594f5e84985527bbdcb53e = L.circleMarker(
+                [38.93594, -77.05932],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_45ab72d353cf467babcf39ec7e3baf11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc3cc457464844578c7a17f785e2ac6e = $(`<div id="html_bc3cc457464844578c7a17f785e2ac6e" style="width: 100.0%; height: 100.0%;">City: Washington  20008 County: WashingtonCluster 2 Orange</div>`)[0];
+            popup_45ab72d353cf467babcf39ec7e3baf11.setContent(html_bc3cc457464844578c7a17f785e2ac6e);
+        
+
+        circle_marker_20a9af6d64594f5e84985527bbdcb53e.bindPopup(popup_45ab72d353cf467babcf39ec7e3baf11)
+        ;
+
+        
+    
+    
+            var circle_marker_83b1138b3f1f4cba82b1d46698ad6170 = L.circleMarker(
+                [38.91993, -77.03747],
+                {"bubblingMouseEvents": true, "color": "Blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_204d610053a548ed9a15c14052408767 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a3065ec6ea24a05b025e7415f36d0c2 = $(`<div id="html_3a3065ec6ea24a05b025e7415f36d0c2" style="width: 100.0%; height: 100.0%;">City: Washington  20009 County: WashingtonCluster 3 Blue</div>`)[0];
+            popup_204d610053a548ed9a15c14052408767.setContent(html_3a3065ec6ea24a05b025e7415f36d0c2);
+        
+
+        circle_marker_83b1138b3f1f4cba82b1d46698ad6170.bindPopup(popup_204d610053a548ed9a15c14052408767)
+        ;
+
+        
+    
+    
+            var circle_marker_235e9eeb9754432cbd95f40ea49e6011 = L.circleMarker(
+                [38.93237, -77.03003000000001],
+                {"bubblingMouseEvents": true, "color": "Blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_8cf43eb8ce5b476da32a51def071357c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16e6095b020a41bf93d917f7fcdcff6f = $(`<div id="html_16e6095b020a41bf93d917f7fcdcff6f" style="width: 100.0%; height: 100.0%;">City: Washington  20010 County: WashingtonCluster 3 Blue</div>`)[0];
+            popup_8cf43eb8ce5b476da32a51def071357c.setContent(html_16e6095b020a41bf93d917f7fcdcff6f);
+        
+
+        circle_marker_235e9eeb9754432cbd95f40ea49e6011.bindPopup(popup_8cf43eb8ce5b476da32a51def071357c)
+        ;
+
+        
+    
+    
+            var circle_marker_b9fbc83ee6b84559a807586f79958190 = L.circleMarker(
+                [38.95241, -77.02278000000001],
+                {"bubblingMouseEvents": true, "color": "Red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_bdb7fe64beec4fd3800937b25da0a223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e8090f253ad4d0d958013b33535165c = $(`<div id="html_3e8090f253ad4d0d958013b33535165c" style="width: 100.0%; height: 100.0%;">City: Washington  20011 County: WashingtonCluster 0 Red</div>`)[0];
+            popup_bdb7fe64beec4fd3800937b25da0a223.setContent(html_3e8090f253ad4d0d958013b33535165c);
+        
+
+        circle_marker_b9fbc83ee6b84559a807586f79958190.bindPopup(popup_bdb7fe64beec4fd3800937b25da0a223)
+        ;
+
+        
+    
+    
+            var circle_marker_481078395de14bd78ae7b73eb4ba4df1 = L.circleMarker(
+                [38.97704, -77.03195],
+                {"bubblingMouseEvents": true, "color": "Red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_61c2f3c8bda240558d0a446472b7d523 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8aeb84fb11704ea6b22c51531d61a603 = $(`<div id="html_8aeb84fb11704ea6b22c51531d61a603" style="width: 100.0%; height: 100.0%;">City: Washington  20012 County: WashingtonCluster 0 Red</div>`)[0];
+            popup_61c2f3c8bda240558d0a446472b7d523.setContent(html_8aeb84fb11704ea6b22c51531d61a603);
+        
+
+        circle_marker_481078395de14bd78ae7b73eb4ba4df1.bindPopup(popup_61c2f3c8bda240558d0a446472b7d523)
+        ;
+
+        
+    
+    
+            var circle_marker_25c14e4fb28d4514a58ccfca61b8af49 = L.circleMarker(
+                [38.966590000000004, -77.05848],
+                {"bubblingMouseEvents": true, "color": "Red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_ba085397865347329e5f9fd3a3b917c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4d8b23db325482f9ea6a1b833a0856a = $(`<div id="html_a4d8b23db325482f9ea6a1b833a0856a" style="width: 100.0%; height: 100.0%;">City: Washington  20015 County: WashingtonCluster 0 Red</div>`)[0];
+            popup_ba085397865347329e5f9fd3a3b917c5.setContent(html_a4d8b23db325482f9ea6a1b833a0856a);
+        
+
+        circle_marker_25c14e4fb28d4514a58ccfca61b8af49.bindPopup(popup_ba085397865347329e5f9fd3a3b917c5)
+        ;
+
+        
+    
+    
+            var circle_marker_0aaf881764a34bfd88052f3f87fe8672 = L.circleMarker(
+                [38.93815, -77.09147],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_343f77d7128347e9961084cbef90694c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59ac9db2527a4fc9a3422b43b36baa30 = $(`<div id="html_59ac9db2527a4fc9a3422b43b36baa30" style="width: 100.0%; height: 100.0%;">City: Washington  20016 County: WashingtonCluster 2 Orange</div>`)[0];
+            popup_343f77d7128347e9961084cbef90694c.setContent(html_59ac9db2527a4fc9a3422b43b36baa30);
+        
+
+        circle_marker_0aaf881764a34bfd88052f3f87fe8672.bindPopup(popup_343f77d7128347e9961084cbef90694c)
+        ;
+
+        
+    
+    
+            var circle_marker_42b6e68a3184449dbdd0f0746b887085 = L.circleMarker(
+                [38.93845, -76.99316999999999],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_3c53199e41d34cfcb21f021549b29284 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2afc8d1d41c418ba5b172a70de0e91d = $(`<div id="html_d2afc8d1d41c418ba5b172a70de0e91d" style="width: 100.0%; height: 100.0%;">City: Washington  20017 County: WashingtonCluster 2 Orange</div>`)[0];
+            popup_3c53199e41d34cfcb21f021549b29284.setContent(html_d2afc8d1d41c418ba5b172a70de0e91d);
+        
+
+        circle_marker_42b6e68a3184449dbdd0f0746b887085.bindPopup(popup_3c53199e41d34cfcb21f021549b29284)
+        ;
+
+        
+    
+    
+            var circle_marker_11d6dfc39a9a47a7afeb55db9671e594 = L.circleMarker(
+                [38.926120000000004, -76.97272],
+                {"bubblingMouseEvents": true, "color": "Red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_07ecd78a7c5b41c5891e297fb893baac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64fa7a5dab7b402fa0080995cbc2b797 = $(`<div id="html_64fa7a5dab7b402fa0080995cbc2b797" style="width: 100.0%; height: 100.0%;">City: Washington  20018 County: WashingtonCluster 0 Red</div>`)[0];
+            popup_07ecd78a7c5b41c5891e297fb893baac.setContent(html_64fa7a5dab7b402fa0080995cbc2b797);
+        
+
+        circle_marker_11d6dfc39a9a47a7afeb55db9671e594.bindPopup(popup_07ecd78a7c5b41c5891e297fb893baac)
+        ;
+
+        
+    
+    
+            var circle_marker_7f2aabc5a3a24c60aef7b8b8a8d7429c = L.circleMarker(
+                [38.8918, -76.9427],
+                {"bubblingMouseEvents": true, "color": "Red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_3fdb08cea3414e259e09ff2bb7050d2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08e2aa7afdd249c49152886f57aea1d1 = $(`<div id="html_08e2aa7afdd249c49152886f57aea1d1" style="width: 100.0%; height: 100.0%;">City: Washington  20019 County: WashingtonCluster 0 Red</div>`)[0];
+            popup_3fdb08cea3414e259e09ff2bb7050d2e.setContent(html_08e2aa7afdd249c49152886f57aea1d1);
+        
+
+        circle_marker_7f2aabc5a3a24c60aef7b8b8a8d7429c.bindPopup(popup_3fdb08cea3414e259e09ff2bb7050d2e)
+        ;
+
+        
+    
+    
+            var circle_marker_f6108d998b434228bbe8f870c18b27ea = L.circleMarker(
+                [38.8616, -76.97529],
+                {"bubblingMouseEvents": true, "color": "Red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_938159b48e814ded9891548ad359c949 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b5df70b3b0546779e011905120fc22f = $(`<div id="html_3b5df70b3b0546779e011905120fc22f" style="width: 100.0%; height: 100.0%;">City: Washington  20020 County: WashingtonCluster 0 Red</div>`)[0];
+            popup_938159b48e814ded9891548ad359c949.setContent(html_3b5df70b3b0546779e011905120fc22f);
+        
+
+        circle_marker_f6108d998b434228bbe8f870c18b27ea.bindPopup(popup_938159b48e814ded9891548ad359c949)
+        ;
+
+        
+    
+    
+            var circle_marker_e5f302626c344feabf5ba37e2368a0bb = L.circleMarker(
+                [38.87826, -77.02758],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_9bbd3851d09540d8964be649ef59804c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_390c59eb81be4459b93a6542bbb78a78 = $(`<div id="html_390c59eb81be4459b93a6542bbb78a78" style="width: 100.0%; height: 100.0%;">City: Washington  20024 County: WashingtonCluster 2 Orange</div>`)[0];
+            popup_9bbd3851d09540d8964be649ef59804c.setContent(html_390c59eb81be4459b93a6542bbb78a78);
+        
+
+        circle_marker_e5f302626c344feabf5ba37e2368a0bb.bindPopup(popup_9bbd3851d09540d8964be649ef59804c)
+        ;
+
+        
+    
+    
+            var circle_marker_5eabccbe13ef43d99832c128d7dd0bbb = L.circleMarker(
+                [38.834379999999996, -77.00673],
+                {"bubblingMouseEvents": true, "color": "Red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_5a3739546d074c2dac0faab777d88266);
+        
+    
+        var popup_974d6defb64e4099889ef4b88f6bb766 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9c73d6fa1484f5cb2069da0ced858d3 = $(`<div id="html_f9c73d6fa1484f5cb2069da0ced858d3" style="width: 100.0%; height: 100.0%;">City: Washington  20032 County: WashingtonCluster 0 Red</div>`)[0];
+            popup_974d6defb64e4099889ef4b88f6bb766.setContent(html_f9c73d6fa1484f5cb2069da0ced858d3);
+        
+
+        circle_marker_5eabccbe13ef43d99832c128d7dd0bbb.bindPopup(popup_974d6defb64e4099889ef4b88f6bb766)
+        ;
+
+        
+    
+</script>
